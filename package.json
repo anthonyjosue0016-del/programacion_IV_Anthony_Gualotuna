@@ -1,0 +1,24 @@
+{
+  "name": "programacion-iv",
+  "version": "1.0.0",
+  "description": "**Autor:** Anthony Gualotuña",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyjosue0016-del/programacion_IV_Anthony_Gualotuna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyjosue0016-del/programacion_IV_Anthony_Gualotuna/issues"
+  },
+  "homepage": "https://github.com/anthonyjosue0016-del/programacion_IV_Anthony_Gualotuna#readme",
+  "dependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
