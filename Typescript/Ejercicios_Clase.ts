@@ -1,4 +1,4 @@
-type TipoPokemon = "Fuego" | "Agua" | "Planta" | "Eléctrico";
+/*type TipoPokemon = "Fuego" | "Agua" | "Planta" | "Eléctrico";
 
 type Entrenador = {
     nombre: string;
@@ -53,3 +53,78 @@ if (entrenador.medallas >= 8 && entrenador.edad >= 12 && !entrenador.suspendido)
 } else {
     console.log("El entrenador no cumple los requisitos para participar en la Liga Pokémon.");
 }
+
+class Guerrero {
+    atacar(): void{
+        console.log("El guerrero realiza un ataque básico")
+    }
+}
+
+class Goku extends Guerrero {
+    kamehameha(): void{
+        console.log("Goku lanza un poderoso kamehameha")
+    }
+}
+
+class Vegeta extends Guerrero {
+    finalFlash(): void{
+        console.log("Vegeta utiliza su poderoso finalFlash")
+    }
+}
+
+const vegeta = new Vegeta();
+vegeta.atacar();
+vegeta.finalFlash();
+const goku = new Goku();
+goku.atacar();
+goku.kamehameha();
+
+class Guerrero {
+    atacar(): void{
+        console.log("El guerrero realiza un ataque Básico")
+    }
+}
+
+class Goku extends Guerrero {
+    override atacar(): void {
+        console.log("Gokuy lanza un poderozo kamehameha")
+    }
+}
+
+class Vegeta extends Guerrero {
+    override atacar(): void {
+        console.log("Vegeta utiliza su Final Flash")
+    }
+}
+
+const guerreros: Guerrero[]=[
+    new Goku(),
+    new Vegeta(),
+]
+guerreros.forEach(guerrero=>guerrero.atacar());*/
+
+abstract  class Saiyajin {
+    abstract transfortmarse(): void;
+    detectarKi(): void {
+        console.log("Detectando el nivel de energía del enemigo...")
+    }
+}
+
+class Goku extends Saiyajin{
+    transfortmarse(): void {
+        console.log("Goku se transforma en Super Saiyajin Blue")
+    }
+}
+
+class Vegeta extends Saiyajin{
+    transfortmarse(): void {
+        console.log("Vegeta alcanza el Ultra Ego")
+    }
+}
+
+const saiyajines: Saiyajin[]=[
+    new Goku(),
+    new Vegeta(),
+]
+console.log(saiyajines);
+saiyajines.forEach(saiyajin=>saiyajin.transfortmarse());
