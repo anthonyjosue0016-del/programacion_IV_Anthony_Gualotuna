@@ -17,7 +17,7 @@
     "url": "https://github.com/anthonyjosue0016-del/programacion_IV_Anthony_Gualotuna/issues"
   },
   "homepage": "https://github.com/anthonyjosue0016-del/programacion_IV_Anthony_Gualotuna#readme",
-  "dependencies": {
+  "devDependencies": {
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
