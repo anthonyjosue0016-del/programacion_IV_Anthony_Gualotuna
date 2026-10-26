@@ -123,7 +123,7 @@ export default function Paso4() {
         <Text style={[styles.detalle, { color: colores.detalle }]}>
           useSafeAreaInsets() devuelve los valores top, bottom, left y right
           para posicionar elementos respetando el notch y la barra de inicio.
-        </Text>
+          </Text>
       </View>
     </ScrollView>
   )
