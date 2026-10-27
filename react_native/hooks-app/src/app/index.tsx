@@ -14,7 +14,7 @@ import Paso4 from './paso4'
 // │  5  Paso 5  Custom hook — useConexionSimulada                    │
 // │  6  Paso 6  Ejemplo combinado — pantalla de estado del servidor  │
 // └──────────────────────────────────────────────────────────────────┘
-const PASO: number = 5
+const PASO: number = 4
 
 export default function Index() {
   switch (PASO) {
@@ -27,7 +27,7 @@ export default function Index() {
     case 4:
       return <Paso4 />
     case 5:
-      return <Paso4 />
+      return <Paso5 />
     default:
       return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
