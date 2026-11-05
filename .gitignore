@@ -338,4 +338,5 @@ out/
 
 **/build/
 **/dist/
-**/out/
+**/out/react_native/hooks-app/Expo-Go-58.0.5.apk
+react_native/forms-app/Expo-Go-58.0.5.apk
