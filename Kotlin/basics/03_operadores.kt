@@ -1,4 +1,4 @@
-
+const val COMBUSTIBLE_MINIMO=50
 fun main() {
     println("Operadores")
     println("Operadores Aritmeticos")
@@ -38,4 +38,49 @@ fun main() {
     println("Mayor igual que > ${15>=10}")
     println("Menor igual que < ${5<=10}")
     println("Menor igual que < ${15<=10}")
+
+    println ("Operadores logicos")
+println (" && and Y")
+println (" || and or")
+println ("! NOT")
+
+
+val combustible = 80
+val portalActivo = true
+val negado = !portalActivo
+
+
+val puedoViajar = combustible > 50 && portalActivo
+println("Puedo viajar: $puedoViajar")
+println ("Negado ? $negado")
+
+
+val tiendaTarjeta =  false
+val autorizadoPorRick = true
+val puedeEntrar = tiendaTarjeta || autorizadoPorRick
+println("Puede entrar: $puedeEntrar")
+
+
+
+println("Operadores de Asignación")
+println("=, +=, -=, *=, /=, %=")
+println("Control de Nave - Rick Sanchez y Anthony Gualotuña")
+val pilotoNave = "Anthony Gualotuña"
+var combustibleNave = 100
+var portalesUniverso = 5
+val motorActivoNave = true
+
+println("Piloto: $pilotoNave")
+combustibleNave+=40
+portalesUniverso--
+println("Combustible: $combustibleNave")
+println("Portales restantes: $portalesUniverso")
+val tieneCombustible = combustibleNave >= COMBUSTIBLE_MINIMO
+val tienePortales = portalesUniverso>=0
+val puedeViajarNave = tieneCombustible && tienePortales && motorActivoNave
+println("¿Tiene combustible? $tieneCombustible")
+println("¿tiene Portales? $tienePortales")
+println("¿Puede Viajar? $puedeViajarNave")
+
+
 }
