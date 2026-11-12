@@ -1,4 +1,7 @@
-fun main(){
+
+
+import costoViajefun
+import costoViaje main(){
     println("Condicionales If")
     println("Condicional Simple o un camino")
     val energia = 80
@@ -42,3 +45,8 @@ fun main(){
     }
 
 }
+
+
+
+
+
